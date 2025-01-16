@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "cerapro";
+    src: url(/Fonts/Demo_Fonts/Fontspring-DEMO-cerapro-regular.otf) format(truetype);
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family: "cerapro";
+    font-style: normal;
+    font-weight: 400 normal;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.box_one{
+    display: flex;
+    background-color: #FBFBFB;
+    padding-right: 30px;
+}
+.box_two{
+    display: flex;
+    background-color: #FBFBFB;
+    padding-right: 30px;
+}
+.box_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box_content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: right;
+    gap: 15px;
+}
+.box_content_one{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: right;
+    text-wrap: nowrap;
+    margin-right: 15px;
+    gap: 15px;
+}
+.box_text{
+    color: #727272;
+}
+.box_btn{
+    color: #FFFFFF;
+    background-color: #46A358;
+    padding: 11px 47px 9px 28px;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 138px;
+    margin-bottom: 15px;
+}
+.under{
+    text-align: center;
+    color: #727272;;
+}
+.blog{
+    margin-top: 35px;
+    gap: 40px;
+    display: flex; 
+    justify-content: center; 
+    align-items: start;
+}
+.blog_one{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FBFBFB;
+}
+.blog_two{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FBFBFB;
+}
+.blog_three{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FBFBFB;
+}
+.blog_four{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #FBFBFB;
+}
+.blog_text{
+    color: #46A358;
+}
+.blog_text_two{
+    color: #727272;
+}
+.blog_title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.blog_link{
+    color: #3D3D3D;
+    font-weight: 500;
+}
+.blog_link:hover{
+    color: #46A358;
+}
