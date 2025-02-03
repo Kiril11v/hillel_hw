@@ -21,6 +21,10 @@
 }
 .plants_pic{
     width: fit-content;
+    transition: 1s;
+}
+.plants_pic:hover {
+    transform: scale(1.2) skew(3deg);
 }
 .plants_title{
     color: #3D3D3D;
@@ -60,6 +64,11 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+.form_email:focus{
+    border: 2px solid #094927;
+  background-color: #a7e2b3;
+  color: #094927;
+} 
 .form_button{
     color: #FFFFFF;
     padding: 12px 25px;
@@ -68,6 +77,16 @@
     font-size: 18px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}
+.form_button:hover{
+    background-color: #094927;
+    color: #1abb65;
+    transform: scale(1.1);
+    border-radius: 10px;
+    transition-property: all;
+    transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .form_text{
     line-height: 22px;
@@ -87,9 +106,17 @@
 .contacts_item{
     display: flex;
     gap: 7px;
+    transition: 1s;
+}
+.contacts_item:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
 }
 .text_loc{
     color: #3D3D3D;
+}
+.text_loc:hover{
+    color: #094927;
 }
 .footer{
     display: flex;
@@ -117,6 +144,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
+    transition: 1s;
+}
+.tabs_link:hover{
+    color: #094927;
+    transform: scale(1.2);
 }
 .media{
     display: flex;
@@ -144,4 +176,13 @@
 .text_rights{
     text-align: center;
     margin-top: 10px;
+}
+.icon_media{
+    transition: 1s;
+    transition-duration: 2s;
+}
+.icon_media:hover{
+    border: 1px solid #094927;
+    border-radius: 5px;
+    transform: scale(1.7);
 }
