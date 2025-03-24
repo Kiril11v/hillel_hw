@@ -55,6 +55,7 @@ body{
     color: #FFFFFF;
     background-color: #46A358;
     padding: 11px 47px 9px 28px;
+    border-radius: 8px;
 }
 .title{
     text-align: center;
